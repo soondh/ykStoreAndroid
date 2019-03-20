@@ -1,0 +1,21 @@
+ext {
+    plugins = [
+            library    : 'com.android.library',
+            application: 'com.android.application',
+    ]
+
+    android = [
+
+    ]
+
+    bintray = [
+
+    ]
+
+    dependencies = [
+            fragment    : 'com.yanzhenjie:fragment:1.0.1',
+            mediaScanner: 'com.yanzhenjie:mediascanner:1.0.3',
+            loading     : 'com.yanzhenjie:loading:1.0.2',
+            statusView  : 'com.yanzhenjie:statusview:1.0.3',
+    ]
+}
